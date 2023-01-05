@@ -1,0 +1,15 @@
+Package: safetygraphicsif
+Type: Package
+Title: Initializing interface for safetyGraphics app
+Version: 0.1.0
+Authors@R: c(person("Pauline", "Baur", email = "pauline.baur@tu-dortmund.de", role = c("aut","cre")),
+	person("Anna", "Fritsch", role="aut"),
+	person("Steffen", "Jeske", role="aut"),
+	person("Martin", "Gebel", email = "martin.gebel@bayer.com",  role="aut"))
+Maintainer: The package maintainer <martin.gebel@bayer.com>
+Description: This packages provides an interface  to run the safetygraphics app with the 
+  current version (Nov 2022) of the required ADS ADSL, ADAE, ADEX, ADLB
+License: GPL (>= 3)
+Imports: safetyGraphics, shiny, tidyverse, shinyjs, yaml, shinydashboard
+Encoding: UTF-8
+LazyData: true
